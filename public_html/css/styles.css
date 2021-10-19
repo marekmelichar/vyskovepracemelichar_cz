@@ -1,0 +1,637 @@
+/* GENERAL */
+
+@font-face{font-family:"Oswald-Light";src:url(../fonts/Oswald-Light.ttf) format('truetype');}
+@font-face{font-family:"Oswald-Regular";src:url(../fonts/Oswald-Regular.ttf) format('truetype');}
+@font-face{font-family:"Oswald-Bold";src:url(../fonts/Oswald-Bold.ttf) format('truetype');}
+
+*:focus {
+	outline: none;
+}
+
+html, body {
+	color: #3D3D3D;
+	background: #FFF;
+	font: 16px/1.5 Oswald-Regular, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, h5, h6, .slim, .wide {
+	font-family: 'Oswald-Regular', sans-serif;
+}
+
+h1{font-size:30px;}
+h2{font-size:27px;}
+h3{font-size:23px;}
+h4{font-size:20px;}
+h5{font-size:18px;}
+h6{font-size:16px;}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+img.bg-covered {
+	max-width: 100%;
+	width: 100%;
+}
+
+li a.active {
+	color: #de5728;
+}
+
+.img,
+.galerie img {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #EFEFEF;
+}
+
+[class*="push"], [class*="pull"] {
+    position: relative;
+}
+
+.pull-half {
+	right: 50%;
+}
+
+.push-half {
+	left: 50%;
+}
+
+.padding-top-0 {
+	padding-top: 0;
+}
+
+.margin-top-0 {
+	margin-top: 0;
+}
+
+/* vsechny floatovane elementy budou containovane, a clearovane */
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after {
+	content: " ";
+	display: table;
+}
+
+.container:after,
+.group:after,
+.menu:after {
+	clear: both;
+}
+
+.container,
+.group,
+.menu {
+	*zoom: 1;
+}
+
+/**/
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #de5728;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.margin-top-40 {
+	margin-top: 3em;
+}
+
+.padding-0-40 {
+	padding: 0 3em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/* COLORS */
+
+.grey a,
+.grey a:hover {
+	background-color: #3d3d3d;
+	color: #fff;
+}
+
+/* general CSS and overriding CSS */
+
+.content {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	display: block;
+	background: url('../images/logo.jpg') 0 0 no-repeat;
+	width: 200px;
+	height: 120px;
+	text-indent: -9999px;
+}
+
+/* HEADER */
+
+.fa-envelope {
+	margin-right: 0.75em;
+}
+
+/* TOP navbar */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+	font-size: 1.25em;
+}
+
+.justified-items.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .justified-items.navbar {
+	margin-top: 3em;
+}
+
+.justified-items.navbar li a:hover {
+	background-color: transparent;
+	color: #de5728;
+}
+
+/* SLIDESHOW */
+
+.overlay {
+	z-index: 4;
+}
+
+.tag {
+	height:15px;
+	width:15px;
+	padding:0;
+	margin-top:6px;
+}
+
+#slides{
+	position: relative;
+	height: 600px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.showing{
+	opacity: 1;
+	z-index: 2;
+}
+
+
+.controls{
+	display: none;
+}
+
+.slide{
+	font-size: 40px;
+	padding: 40px;
+	box-sizing: border-box;
+	background: #333;
+	color: #fff;
+  
+  background-size: cover;
+}
+
+.slide:nth-of-type(1){
+  background-image: url('../images/img_1.jpg');
+}
+
+.slide:nth-of-type(2){
+  background-image: url('../images/img_2.jpg');
+}
+
+.slide:nth-of-type(3){
+  background-image: url('../images/img_3.jpg');
+}
+
+.slide:nth-of-type(4){
+  background-image: url('../images/img_4.jpg');
+}
+
+.controls {
+	position: absolute;
+  background: transparent;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  border: none;
+}
+
+.controls:hover,
+.controls:focus,
+.controls:active {
+  background: transparent;
+  color: #333;
+  border: none;
+  outline: none;
+}
+
+.controls .fa.fa-angle-left,
+.controls .fa.fa-angle-right {
+	font-size: 50px;
+}
+
+#previous,
+#next {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#previous {
+	left: 1em;
+}
+
+#next {
+	right: 1em;
+}
+
+#pause {
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.slideshow {
+  position: relative;
+}
+
+#pagination {
+	position: absolute;
+  z-index: 2;
+  text-align: center;
+  bottom: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.buttons{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  font-size: 0px;
+}
+
+#pagination button {
+	margin: 0 15px;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font-size: 12px;
+  background: rgba(256, 256, 256, 0.15);
+  border: 1px solid rgba(256, 256, 256, 0.15);
+  border-radius: 50%;
+  color: #fff;;
+}
+
+/* SLIDE OUT NAVIGATION */
+
+.overlay {
+	z-index: 4;
+}
+
+/* offered-services */
+
+.offered-services {
+	font-size: 1.15em;
+} 
+
+.offered-services i {
+	color: #de5728;
+}
+
+/* MEMBRANE SERVICES */
+.membrane-services {
+	background-image: url(../images/membranove-strechy.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	color: #fff;
+	font-size: 1.15em;
+}
+
+/* PHOTOS MAIN PAGE */
+.container_galerie {
+	text-align: center;
+}
+
+.galerie {
+  display: inline-block;
+  margin: 1em;
+}
+
+/* FOOTER */
+
+footer {
+	padding: 2em 0.5em;
+	background-color: #3d3d3d;
+	color: #fff;
+}
+
+/* PAGE site pro kocky */
+
+.bila, .cerna, .zluta, .zelena, .cervena, .svetlezelena {
+	border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.bila {
+    background-color: #FFF;
+    color: #3D3D3D;
+    border: 0.5px solid #3D3D3D;
+}
+
+.cerna {
+    background-color: #3D3D3D;
+    color: #FFF;
+}
+
+.zluta {
+    background-color: yellow;
+    color: #3D3D3D;
+}
+
+.zelena {
+    background-color: #297727;
+    color: #FFF;
+}
+
+.cervena {
+    background-color: red;
+    color: #FFF;
+}
+
+.svetlezelena {
+    background-color: #81D379;
+    color: #FFF;
+}
+
+.arrow {
+	margin-left: 12em;
+}
+
+/* PAGE cisteni okapu */
+
+.cover-okapy {
+	background: #FFF url('../images/okapy_banner.jpg') 50% 50% no-repeat;
+  height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+
+.justified-items.navbar {
+	display: block;
+}
+
+header .justified-items.navbar {
+	margin: 1.5em 0 0 5em; 
+}
+
+footer .justified-items.navbar li {
+	float: none;
+}
+
+.bila, .cerna, .zluta, .zelena, .cervena, .svetlezelena {
+	display: block;
+}
+
+.arrow {
+	margin-left: 2em;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+.margin-top-0	{
+	margin-top: 1em;
+}
+
+.mobile-pull-half	{
+	right: 50%;
+}
+
+.mobile-push-half	{
+	left: 50%;
+}
+
+.col.s12, .half, .third, .twothird, .threequarter, .quarter {
+    width: 99.99999%;
+}	
+
+header .justified-items.navbar {
+	margin: 1.5em 0 0 1em; 
+}	
+
+.header-navbar.navbar {
+	display: block;
+}
+
+.logo {
+	float: right;
+}	
+
+.fa-bars {
+	position: absolute;
+	top: 2em;
+	left: 2em;
+} 
+
+nav.main {
+	display: none;
+}	
+
+#previous {
+  left: 12px;
+}
+
+#next {
+  right: 12px;
+}
+
+#pagination button {
+	margin: 0 12px;
+}
+
+.slide:nth-of-type(1) {
+	background-position: -215px 0;
+}
+
+.slide:nth-of-type(2) {
+	background-position: -510px 0;
+}
+
+.slide:nth-of-type(3) {
+	background-position: -510px 0;
+}
+
+.slide:nth-of-type(4) {
+	background-position: -390px 0;
+}
+
+.offered-services img {
+	margin-top: 2em;
+}
+
+.bila, .cerna, .zluta, .zelena, .cervena, .svetlezelena {
+	display: block;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+.container_galerie {
+	display: block;
+}
+
+.galerie {
+	margin: 2em auto;
+  text-align: center;
+}
+
+.logo {
+  float: none;
+}	
+
+.logo a {
+	margin: 4em auto 1em auto;
+}
+
+.fa-bars {
+	top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+header .fa-envelope {
+	margin-right: 0;
+}
+
+header .justified-items.navbar {
+  /*margin: 1em 0 0 0;*/
+  display: none;
+}
+
+.justified-items.navbar {
+	display: block;
+}
+
+.navbar li a {
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+}
+
+footer .justified-items.navbar li {
+	float: none;
+}
+
+}
+
+@media screen and (max-width: 321px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

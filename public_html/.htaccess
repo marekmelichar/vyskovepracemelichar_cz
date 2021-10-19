@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RewriteOptions inherit
+
+RewriteCond %{HTTP_HOST} ^vyskovepracemelichar\.marekmelichar\.cz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vyskovepracemelichar\.marekmelichar\.cz$
+RewriteRule ^/?$ "https\:\/\/www\.vyskovepracemelichar\.cz" [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^vyskovepracemelichar\.cz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vyskovepracemelichar\.cz$
+RewriteRule ^(.*)$ https://www\.vyskovepracemelichar.cz/$1 [R,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^vyskovepracemelichar.cz [NC]
+RewriteRule ^(.*)$ http://www.vyskovepracemelichar.cz/$1 [L,R=301]

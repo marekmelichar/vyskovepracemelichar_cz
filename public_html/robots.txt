@@ -1,0 +1,22 @@
+User-agent: *
+Disallow:
+
+User-agent: Seznambot
+Disallow:
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Jyxobot
+Disallow:
+
+User-agent: msnbot
+Disallow:
+
+User-agent: Centrumbot
+Disallow:
+
+Sitemap: http://www.vyskovepracemelichar.cz/Sitemap.xml
+
+
+

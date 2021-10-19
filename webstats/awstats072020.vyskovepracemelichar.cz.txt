@@ -1,0 +1,882 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202007 will be lost/reset.
+# Last config file used to build this data file was /home/marekmel/tmp/awstats/awstats.vyskovepracemelichar.marekmelichar.cz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2034                
+POS_TIME 2692                
+POS_VISITOR 15087               
+POS_DAY 24172               
+POS_DOMAIN 3579                
+POS_LOGIN 4099                
+POS_ROBOT 4254                
+POS_WORMS 4811                
+POS_EMAILSENDER 4942                
+POS_EMAILRECEIVER 5085                
+POS_SESSION 25029               
+POS_SIDER 25237               
+POS_FILETYPES 5220                
+POS_DOWNLOADS 5481                
+POS_OS 5549                
+POS_BROWSER 5832                
+POS_SCREENSIZE 8311                
+POS_UNKNOWNREFERER 8385                
+POS_UNKNOWNREFERERBROWSER 9208                
+POS_ORIGIN 9713                
+POS_SEREFERRALS 9857                
+POS_PAGEREFS 10046               
+POS_SEARCHWORDS 10599               
+POS_KEYWORDS 11360               
+POS_MISC 2356                
+POS_ERRORS 11726               
+POS_CLUSTER 3955                
+POS_SIDER_404 11882               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200801001830 1 0 8678024043158
+FirstTime 0
+LastTime 20200731215406
+LastUpdate 20200801005326 1 0 0 0 0
+TotalVisits 294                 
+TotalUnique 194                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 244                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 89 3340932 76 134 2986762
+1 11 13 173373 57 136 3807887
+2 33 66 1694204 93 147 340986
+3 9 34 3153765 72 127 2790586
+4 8 20 1908593 37 83 2057486
+5 17 96 5022947 34 61 456644
+6 11 27 2263469 43 84 4768094
+7 2 3 88023 55 129 5231672
+8 15 69 6905338 77 117 4830101
+9 16 72 8997708 72 127 4968510
+10 53 290 18623677 61 125 2534871
+11 39 331 24570757 49 94 7571117
+12 51 233 21995380 83 154 3214151
+13 25 135 13364927 70 115 4091072
+14 22 100 8135308 72 101 3574315
+15 19 128 9152044 32 51 448559
+16 36 171 15550632 68 141 5126478
+17 53 185 12436342 62 106 2160354
+18 32 127 9073920 56 100 1137871
+19 23 115 8938131 39 61 1453055
+20 24 61 1523490 48 69 1320714
+21 28 107 8064766 75 115 1392128
+22 25 78 4173131 68 120 2424375
+23 43 195 13302658 67 119 2543896
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 21
+cz 347 2201 180344123
+us 180 286 8046851
+fr 16 31 1365987
+ru 14 88 5872128
+ca 12 12 143063
+cn 11 16 620307
+gb 10 43 1463898
+de 7 7 0
+nl 6 6 25788
+in 4 4 17192
+pa 4 4 17192
+sk 3 17 1373462
+eu 3 16 1825888
+se 3 3 12894
+tr 1 1 4298
+iq 1 1 4298
+it 1 1 16187
+sc 1 1 4298
+ua 1 1 16187
+ie 0 5 1122683
+dk 0 1 156653
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bot[\s_+:,\.\;\/\\-] 880 54315269 20200731103644 334
+googlebot 190 821872 20200731092159 28
+robot 80 169691 20200731233641 33
+unknown 15 2284 20200730231322 15
+bingpreview 13 840189 20200726083950 0
+php 8 3885032 20200731115329 0
+[\s_+:,\.\;\/\\-]bot 8 1581778 20200725101334 0
+crawl 6 25788 20200730073400 0
+googlebot\-image 5 1133483 20200731033617 0
+checker 2 8596 20200721031328 0
+no_user_agent 1 16187 20200715143031 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+woff2 98 6317472 0 0
+eot 1 68875 0 0
+css 104 1866696 0 0
+png 481 1915652 0 0
+html 423 3026838 0 0
+jpg 1331 178975584 0 0
+js 106 4056302 0 0
+gif 98 830648 0 0
+ttf 101 5232604 0 0
+woff 2 162568 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 1 138
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+macosx6 3 3
+win7 267 64
+linuxandroid 903 136
+winnt 872 185
+winxp 9 9
+macosx7 3 3
+ios_iphone 196 31
+winlong 16 3
+linuxubuntu 1 0
+ios_ipad 3 1
+macosx9 6 3
+Unknown 137 54
+win8.1 63 22
+macosx 109 61
+linux 151 44
+win8 7 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 120
+chrome40.0.2214.85 7 7
+chrome66.0.3359.181 14 14
+firefox76.0 16 3
+safari8.0.8 2 2
+firefox39.0 1 1
+chrome78.0.3904.87 25 25
+firefox60.0 46 13
+chrome51.0.2704.47 1 1
+chrome11.0.654.0 1 1
+chrome83.0.4103.83 18 4
+chrome26.0.1410.63 1 1
+firefox33.0 1 1
+chrome83.0.4103.106 282 45
+chrome50.0.2661.94 1 1
+firefox49.0 2 2
+chrome74.0.3729.157 1 1
+firefox63.0 7 7
+chrome83.0.4103.97 16 3
+chrome78.0.3904.108 73 14
+safari9.1 1 1
+chrome76.0.3809.89 16 3
+safari9.0.2 1 1
+chrome80.0.3987.122 1 0
+chrome35.0.1916.47 1 1
+chrome81.0.4044.129 2 2
+firefox10.0 4 4
+firefox28.0 11 11
+safari 20 3
+chrome10.0.648.134 1 1
+chrome83.0.4103.61 19 6
+firefox73.0 1 1
+chrome36.0.1985.67 2 2
+firefox38.0 1 1
+chrome51.0.2704.63 1 1
+chrome31.0.1650.16 1 1
+safari10.0 14 3
+firefox57.0 3 3
+safari9.1.2 3 3
+chrome46.0.2490.86 1 1
+chrome51.26.2704.63 1 1
+safari13.1 16 3
+chrome28.0.1467.0 1 1
+firefox37.0 2 2
+firefox32.0 3 3
+chrome51.0.2712.8 1 1
+chrome80.0.3987.87 16 3
+chrome74.0.3729.131 3 3
+chrome74.0.3729.169 2 2
+opera64.0.3417.54 1 1
+opera12.16 1 0
+safari9.0.1 4 4
+chrome46.0.2486.0 20 20
+chrome80.0.3987.149 1 1
+chrome67.0.3396.87 16 3
+chrome60.0.3112.107 2 2
+firefox65.0 1 1
+android 3 3
+safari12.1.2 1 1
+chrome78.0.3904.96 16 3
+safari5.1 1 1
+firefox70.0 16 3
+chrome41.0.2226.0 2 2
+chrome84.0.4147.105 125 17
+chrome51.0.2704.103 4 4
+msie11.0 47 17
+msie10.0 1 0
+opera68.0.3618.173 17 3
+chrome76.0.3809.71 72 6
+chrome45.0.2454.94 1 1
+safari9.1.1 2 2
+firefox46.0 5 5
+firefox3.0.8 2 2
+chrome71.0.3578.98 1 1
+firefox69.0 15 3
+chrome55.0.2883.91 115 10
+chrome49.0.2623.87 1 1
+chrome83.0.4103.116 386 50
+mozilla 46 10
+firefox79.0 16 3
+chrome79.0.3945.136 32 6
+chrome65.0.3325.181 3 0
+safari13.1.1 202 28
+chrome79.0.3945.130 17 3
+firefox61.0 3 3
+chrome10.0.611.0 1 0
+chrome70.0.3538.102 19 5
+chrome73.0.3683.90 2 2
+safari9.0.3 1 1
+msie9.0 2 2
+chrome49.0.2623.112 19 6
+chrome50.0.2661.102 2 2
+chrome58.0.3029.110 1 1
+msie10.6 1 1
+firefox2.0.0.3 2 2
+chrome51.0.2704.79 1 1
+safari5.1.7 2 2
+safari9.0 1 1
+chrome51.0.2704.84 1 1
+safari5.1.3 2 2
+chrome73.0.3683.75 2 2
+chrome75.0.3770.142 6 3
+firefox47.0 3 3
+firefox45.0 1 1
+firefox72.0 2 2
+chrome68.0.3440.91 54 4
+firefox53.0 1 1
+chrome83.0.4090.0 2 2
+opera69.0.3686.77 32 6
+opera38.0.2220.31 1 1
+chrome30.0.1599.101 1 1
+chrome81.0.4044.113 17 3
+chrome41.0.2228.0 2 1
+firefox78.0 234 25
+chrome76.0.3809.100 1 1
+msie7.0 2 2
+netscape5.0 11 7
+chrome84.0.4147.89 372 58
+Unknown 80 37
+chrome63.0.3239.84 1 1
+firefox77.0 2 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+Viber/13.2.1.6_CFNetwork/1126_Darwin/19.5.0 20200720150218
+python-requests/2.24.0 20200724075552
+Mozilla/5.0_PhantomJS_(compatible;_Seznam_screenshot-generator_2.1;__http://fulltext.sblog.cz/screenshot/) 20200729003058
+Scrapy/2.0.1_(_https://scrapy.org) 20200727145111
+Embarcadero_URI_Client/1.0 20200730232550
+Mozilla/5.0 20200710204844
+cortex/1.0 20200705233217
+Mozilla/5.0_(compatible;_DotBot/1.1;_http://www.opensiteexplorer.org/dotbot,_help@moz.com) 20200722002950
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200715025442
+WhatsApp/2.20.47_A 20200711112934
+Go-http-client/1.1 20200730231343
+HTML2JPG_Enterprise,_http://www.html2jpg.com 20200705115903
+FirmoGraph_(_https://firmograph.io) 20200730222156
+adreview/1.0 20200705233211
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+adreview/1.0 20200705233211
+FirmoGraph_(_https://firmograph.io) 20200730222156
+HTML2JPG_Enterprise,_http://www.html2jpg.com 20200705115903
+Go-http-client/1.1 20200730231343
+WhatsApp/2.20.47_A 20200711112934
+cortex/1.0 20200705233217
+Embarcadero_URI_Client/1.0 20200730232550
+Scrapy/2.0.1_(_https://scrapy.org) 20200727145111
+python-requests/2.24.0 20200724075552
+Viber/13.2.1.6_CFNetwork/1126_Darwin/19.5.0 20200720150218
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 262 332
+From1 0 0
+From2 85 132
+From3 13 13
+From4 265 2269
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 52 97
+bing 4 5
+yahoo 0 1
+seznam 29 29
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+https://l.facebook.com 6 6
+http://m.facebook.com 1 1
+http://m.bad-kitty.cz/news/site-do-oken-za-me-rozhodne-ano/ 1 1
+https://www.bad-kitty.cz/news/site-do-oken-za-me-rozhodne-ano/ 1 1
+http://www.ironcoating.com/blog/56943505/view/ 1 1
+https://alfa.elchron.cz 1 1
+http://www.selectcontractsltd.com/blog/56943505/view/ 1 1
+http://www.jodieblog.top/simple-tips-to-increase-website-traffic/56943505/view/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 19
+s%c3%adt%c4%9b+na+balkon 7
+s%c3%adt%c4%9b+na+balk%c3%b3n 3
+amazon 2
+s%c3%ad%c5%a5+na+balkon 2
+site+pro+kocky+brno 2
+s%c3%adt%c4%9b+pro+ko%c4%8dky+na+balkon 2
+hroty+proti+ko%c4%8dk%c3%a1m 1
+s%c3%adt+na+balkon 1
+s%c3%adt%c4%9b+na+balkon+proti+holub%c5%afm+brno 1
+s%c3%ad%c5%a5+na+balk%c3%b3n 1
+s%c3%ad%c5%a5+na+balkon+pro+ko%c4%8dky 1
+jak+zajistit+balkon+pro+ko%c4%8dky 1
+ocelov%c3%a1+s%c3%ad%c5%a5+do+oken+pro+ko%c4%8dky 1
+site+na+balkon 1
+s%c3%adt%c4%9b+na+balkon+proti+ko%c4%8dk%c3%a1m 1
+n%c3%a1t%c4%9bry+ve+v%c3%bd%c5%a1k%c3%a1ch+brno 1
+s%c3%adtka+do+na+balkon 1
+kocki+brno 1
+s%c3%ad%c5%a5e+na+na+balkon 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 27
+na 23
+balkon 19
+s%c3%adt%c4%9b 14
+pro 7
+s%c3%ad%c5%a5 5
+ko%c4%8dky 5
+brno 5
+balk%c3%b3n 4
+site 3
+proti 3
+ko%c4%8dk%c3%a1m 2
+do 2
+amazon 2
+kocky 2
+s%c3%adt 1
+ocelov%c3%a1 1
+holub%c5%afm 1
+ve 1
+s%c3%ad%c5%a5e 1
+n%c3%a1t%c4%9bry 1
+oken 1
+s%c3%adtka 1
+v%c3%bd%c5%a1k%c3%a1ch 1
+zajistit 1
+kocki 1
+hroty 1
+jak 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+301 169 40902
+206 102 7686995
+400 2 2786
+302 779 176320
+404 296 524512
+444 37 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 104
+/test/.env 3 -
+/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/feed 1 -
+/index.xml 1 -
+/sitemaps.xml 2 -
+/temp/ 2 -
+/reference.html/js/jquery-1.7.2.min.js 1 -
+/plugins/system/debug/debug.xml 5 -
+/zednickeprace.html 3 -
+/vyskoveprace.html/js/jquery-1.7.2.min.js 1 -
+/system/.env 1 -
+/news/ 1 -
+/administrator/language/en-GB/install.xml 5 -
+/bak/ 2 -
+/wp/wp-admin/install.php 2 -
+/misc/ajax.js 5 -
+/v2/ 2 -
+/wp2/ 2 -
+/humans.txt 4 -
+/wp1/ 2 -
+/index.atom 1 -
+/public/.env 1 -
+/reference.html/js/script.min.js 1 -
+/laravel/.env 3 -
+/tel:+420774982478 6 http://vyskovepracemelichar.cz
+/vyskoveprace.html/js/script.min.js 1 -
+/wp-content/plugins/apikey/cursed.php 2 -
+/https:/twitter.com/marek_melichar 2 http://www.vyskovepracemelichar.cz/https://twitter.com/marek_melichar
+/ads.txt 4 http://vyskovepracemelichar.cz/ads.txt
+/new/wp-admin/install.php 2 -
+/api/.env 3 -
+/reference.html/js/nav.js 1 -
+/feeds 1 -
+/sites/.env 3 -
+/admin/.env 3 -
+/service_account.json 1 -
+/vyskoveprace.html/js/wow/wow.min.js 1 -
+/vyskoveprace.html/js/wow/wow.run.js 1 -
+/Sitemap.xml 45 -
+/reference.html/js/slideshow.js 1 -
+/administrator/ 5 -
+/images/editor/separator.gif 5 -
+/main/ 2 -
+/v1/ 2 -
+/kontakt.html 17 -
+/administrator/help/en-GB/toc.json 5 -
+/vyskoveprace.html/js/lightbox.min.js 2 -
+/blog/.env 3 -
+/bk/ 2 -
+/.env 11 -
+/wp/ 3 -
+/demo/ 2 -
+/wp-admin/install.php 4 -
+/apple-touch-icon.png 1 -
+/backup/ 2 -
+/adminer/adminer.php 2 -
+/admin/view/javascript/common.js 5 -
+/wp-content/plugins/apikey/apikey.php 2 -
+/main/wp-admin/install.php 1 -
+/sitemap.xml.gz 2 -
+/old/ 2 -
+/cms/ 3 -
+/admin/includes/general.js 5 -
+/reference.html/js/wow/wow.run.js 1 -
+/reference.html/js/lightbox.min.js 1 -
+/vyskoveprace.html/js/nav.js 1 -
+/js/header-rollup-554.js 5 -
+/rss.xml 1 -
+/https:/www.facebook.com/marek.melichar 2 http://www.vyskovepracemelichar.cz/https://www.facebook.com/marek.melichar
+/wp-json/wp/v2/users 1 https://www.vyskovepracemelichar.cz/wp-json/wp/v2/users
+/blog/ 3 -
+/vyskoveprace.html/js/slideshow.js 1 -
+/wp-includes/js/jquery/jquery.js 5 -
+/new-site/ 1 -
+/https:/goo.gl/maps/3qXzV6p4bN22 2 http://www.vyskovepracemelichar.cz/https://goo.gl/maps/3qXzV6p4bN22
+/install/ 1 -
+/2018/ 2 -
+/vendor/.env 2 -
+/web/ 3 -
+/new/ 3 -
+/https:/cz.linkedin.com/in/marekmelichar 2 http://www.vyskovepracemelichar.cz/https://cz.linkedin.com/in/marekmelichar
+/old-wp/ 2 -
+/2019/ 2 -
+/reference.html/js/wow/wow.min.js 1 -
+/sitemap_index.xml 2 -
+/shop/.env 1 -
+/index.rss 1 -
+/test/ 2 -
+/old-site/ 2 -
+/tmp/ 2 -
+/2020/ 2 -
+/site/ 3 -
+/test/wp-admin/install.php 1 -
+/dev/ 2 -
+/assets/plugins/jquery-file-upload/server/php/index.php 2 https://www.vyskovepracemelichar.cz/assets/plugins/jquery-file-upload/server/php/index.php
+/home/ 3 -
+/feeds/ 1 -
+/vyskoveprace.html/js/slides.min.jquery.js 1 -
+/wordpress/ 3 -
+/reference.html/js/slides.min.jquery.js 1 -
+/atom.xml 3 -
+/wordpress/wp-admin/install.php 2 -
+/feed/ 1 -
+/index.rdf 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 244
+34.246.84.242 48 48 776976 20200731022519
+108.128.21.232 40 40 647480 20200731215406
+194.145.183.60 21 21 80852 20200730222156
+78.45.140.146 13 118 5761248 20200703151401
+5.196.64.109 12 14 46291 20200720105619
+81.25.26.150 10 43 1646455 20200730232550
+167.114.209.38 10 10 138765 20200715025432
+37.188.174.172 9 34 3875363 20200728122319
+176.97.247.254 9 77 4754792 20200708145658
+86.49.250.254 9 86 6789830 20200721180617
+94.112.7.173 9 112 6686876 20200707170700
+109.183.231.64 8 56 7221532 20200713110156
+216.18.204.144 8 28 1542675 20200720005626
+138.246.253.15 7 7 0 20200723184452
+94.113.135.170 6 32 2630796 20200718211650
+78.80.105.128 6 74 6073122 20200711113211
+65.154.226.109 6 72 3081248 20200720054611
+89.103.134.218 6 77 4248084 20200728201109
+193.165.236.100 6 32 2630796 20200731062509
+80.82.77.66 6 6 25788 20200731012436
+37.188.254.229 6 29 3650531 20200721124711
+80.78.139.21 5 55 2699298 20200711112934
+46.135.80.100 4 28 1833524 20200730175229
+78.45.210.7 4 17 1319239 20200715233753
+86.49.251.40 4 41 4112402 20200722113153
+37.188.244.246 3 15 1825473 20200720032216
+37.48.0.194 3 37 1541039 20200727105242
+37.44.23.44 0 1 58064 
+3.17.61.164 1 1 4298 20200726131524
+35.225.242.193 2 2 8596 20200714234451
+5.104.73.77 1 1 4298 20200728083713
+193.138.153.35 3 16 1315398 20200714164845
+185.91.169.14 3 37 1541039 20200709230351
+51.141.177.40 2 2 8596 20200710115939
+34.219.57.33 1 1 4298 20200712042916
+94.113.169.111 3 16 1315398 20200719180300
+183.253.80.83 1 1 4298 20200727034430
+194.108.6.18 3 16 1315398 20200723085003
+18.217.181.72 3 3 11029 20200703002003
+217.16.189.164 0 1 68367 
+3.237.30.241 1 1 4298 20200717174334
+51.81.126.22 1 1 4298 20200727012554
+34.244.84.228 2 2 8596 20200714212936
+18.191.207.147 1 1 4298 20200702172820
+95.82.165.18 2 25 224302 20200702213029
+183.253.80.105 1 1 4298 20200704213644
+3.235.193.133 1 1 4298 20200705133223
+82.119.243.116 3 16 1315398 20200721082609
+78.45.216.98 0 3 1047214 
+18.237.114.38 2 2 8596 20200731020540
+196.16.233.105 1 1 4298 20200708063725
+78.80.205.3 3 16 1315398 20200701235433
+3.236.113.233 1 1 4298 20200728173512
+46.135.79.14 3 16 1315398 20200728100502
+93.170.86.2 3 16 1315398 20200731094755
+89.176.145.157 1 5 2627164 20200705162701
+46.135.85.28 0 1 920783 
+138.128.14.202 1 1 4298 20200707214223
+31.13.127.116 0 1 68367 
+18.223.21.47 1 1 4298 20200710172842
+219.140.123.20 3 5 192742 20200706060004
+173.252.95.38 0 1 138 
+178.41.247.211 0 1 58064 
+46.135.5.119 3 16 1315398 20200729162622
+185.199.87.230 3 16 1315398 20200701211454
+83.240.61.144 3 16 1315398 20200719105439
+213.235.64.73 0 1 58064 
+193.165.236.161 0 1 58064 
+35.166.203.53 0 1 38267 
+3.101.0.4 1 1 16187 20200713113727
+94.74.201.123 4 17 1319239 20200719104645
+173.252.127.119 2 9 251650 20200705233141
+188.95.60.85 3 16 2834420 20200703085023
+3.21.129.252 1 1 4298 20200709172130
+195.212.58.199 0 1 415 
+158.115.234.164 1 1 4298 20200724121517
+3.234.210.112 1 1 4298 20200701174457
+194.228.32.156 3 16 1315398 20200707150903
+18.219.202.237 1 1 4298 20200731172903
+54.202.217.89 1 1 4298 20200729020611
+37.188.185.74 3 16 1315398 20200704090530
+13.59.150.169 1 1 4298 20200703170939
+194.228.207.2 0 1 58064 
+213.194.194.11 0 1 58064 
+193.85.250.202 3 16 1315398 20200704032835
+199.244.88.132 1 1 4298 20200728103157
+52.14.207.53 1 1 4298 20200721174926
+31.13.127.119 0 1 18382 
+188.119.88.191 1 1 4298 20200721064010
+193.19.179.165 2 2 8596 20200727164445
+178.22.113.53 4 34 2240041 20200722101747
+37.44.19.221 3 16 1315398 20200714162911
+109.105.43.22 0 2 126431 
+46.135.82.85 3 16 1315398 20200725175655
+193.86.96.82 0 1 920783 
+35.175.106.86 1 1 4298 20200715175453
+163.172.154.242 1 1 4298 20200730010658
+34.217.48.47 2 2 8596 20200727022742
+3.237.36.55 1 1 4298 20200713175319
+18.206.74.76 1 1 4298 20200714172134
+37.188.174.43 0 1 68367 
+131.117.208.145 3 16 1315398 20200716101026
+78.45.130.212 4 34 2240041 20200730231252
+37.188.172.205 0 1 58064 
+88.80.55.134 1 1 16187 20200704061406
+82.142.126.227 0 1 68367 
+46.135.9.166 1 3 121831 20200709174326
+89.24.46.201 3 17 1315813 20200703231514
+135.181.41.110 1 1 4298 20200716005842
+192.71.103.173 1 1 4298 20200730231343
+3.128.27.79 1 1 4298 20200724173120
+81.19.4.221 0 2 978847 
+184.94.240.92 2 2 32374 20200718090759
+46.252.230.1 3 16 1315398 20200706231012
+84.246.166.2 3 16 1315398 20200703174051
+138.197.152.122 1 1 0 20200726134531
+93.91.51.172 3 3 12894 20200728142900
+188.122.195.66 3 17 1315813 20200716155918
+18.217.223.118 2 2 32374 20200724095446
+77.75.77.24 3 36 1540624 20200729135431
+85.71.206.78 3 16 1315398 20200711104544
+163.172.163.25 1 1 4298 20200730220940
+165.227.35.253 1 1 0 20200726134526
+31.31.78.204 4 4 17192 20200725194821
+194.213.41.2 2 32 2980375 20200722133803
+37.48.63.7 3 16 1315398 20200719120150
+176.74.157.136 3 16 1315398 20200714181258
+62.168.39.202 3 3 12894 20200713164107
+94.113.176.151 3 16 1315398 20200724173919
+95.82.135.62 3 18 1441829 20200727181407
+89.103.143.108 3 16 1315398 20200702124150
+18.219.239.190 1 1 4298 20200716175237
+82.142.92.26 1 1 3477 20200726195707
+212.98.113.162 0 1 156653 
+175.44.42.225 1 1 4298 20200716121548
+161.35.172.29 3 3 12894 20200708122632
+18.224.180.188 1 1 4298 20200727172614
+78.156.40.9 0 1 58064 
+69.171.251.29 0 1 57087 
+193.165.236.233 0 1 58064 
+69.171.251.15 0 1 57087 
+92.243.65.210 1 1 0 20200714091323
+46.135.79.25 0 1 920783 
+3.234.222.2 1 1 4298 20200707175706
+51.158.117.104 1 1 4298 20200726174604
+188.75.191.140 0 1 58064 
+185.219.167.250 3 14 1825058 20200710044346
+86.49.242.19 3 16 1315398 20200714214616
+212.24.143.94 3 16 1315398 20200708141439
+94.143.232.130 0 1 68367 
+62.200.229.135 3 15 1825473 20200721123504
+192.71.36.158 1 1 4298 20200715105128
+193.165.202.202 3 16 1315398 20200722130823
+34.77.41.187 1 1 4298 20200727145111
+80.188.204.10 3 17 1373462 20200729102956
+83.240.45.176 3 16 1315398 20200725231307
+80.83.67.58 3 15 1825473 20200720090710
+46.135.68.213 0 1 710882 
+77.111.247.43 3 16 1315398 20200726211739
+183.136.225.46 1 1 16187 20200719201631
+45.72.61.212 1 1 4298 20200722024815
+34.220.162.102 1 1 4298 20200730020525
+179.43.169.182 4 4 17192 20200720054657
+18.206.177.107 1 1 4298 20200730174645
+23.81.230.206 1 1 4298 20200728031826
+194.228.216.126 0 1 58064 
+82.202.226.49 1 1 16187 20200728122219
+172.93.101.96 1 1 16187 20200701075853
+82.142.92.12 1 1 3477 20200709061322
+77.75.77.200 0 2 830 
+3.16.156.52 1 1 4298 20200720175149
+31.13.127.2 0 1 920783 
+52.59.102.42 1 1 4298 20200714164132
+35.162.204.35 0 1 38267 
+83.240.126.224 3 16 1315398 20200704210219
+81.2.242.4 1 1 4298 20200717225427
+192.71.38.71 1 1 4298 20200706221727
+54.149.252.60 2 2 8596 20200702023258
+90.180.10.140 4 43 2667563 20200709195650
+51.91.61.117 1 34 1425216 20200715025441
+51.161.59.72 1 1 4298 20200724025050
+94.112.231.221 3 16 1315398 20200731132605
+194.228.13.127 0 1 1098365 
+94.112.164.3 0 1 84049 
+3.235.173.201 1 1 4298 20200708173422
+3.229.120.130 1 1 4298 20200723171735
+37.48.1.110 3 16 1315398 20200719213531
+173.252.127.19 1 5 142550 20200705233142
+78.45.210.202 3 16 1315398 20200710121028
+3.235.225.18 1 1 4298 20200712131034
+79.141.243.5 0 1 58064 
+147.229.120.126 3 16 1315398 20200731115054
+178.255.168.231 3 16 1315398 20200714192817
+213.194.200.78 0 1 58064 
+142.93.145.9 1 1 0 20200726134530
+163.172.137.15 1 1 4298 20200730230545
+45.76.90.28 1 1 4298 20200724075552
+52.188.125.130 1 1 4298 20200714063724
+62.245.104.170 3 16 1315398 20200715084232
+34.212.82.55 2 2 8596 20200725021342
+52.14.224.246 1 1 4298 20200722171457
+85.163.74.168 3 16 1315398 20200726165737
+46.135.70.149 4 18 1319654 20200726185926
+62.210.111.97 1 1 4298 20200702083324
+111.172.30.80 4 6 330946 20200710204844
+104.154.216.218 3 3 12894 20200731031101
+188.175.35.10 0 1 58064 
+52.36.24.139 1 1 4298 20200728022338
+91.224.49.83 3 15 1825473 20200726095318
+86.49.248.32 0 1 920783 
+138.197.160.158 1 1 0 20200726134528
+3.94.200.130 1 1 4298 20200719132546
+89.103.90.220 3 15 1825473 20200727195854
+90.180.192.42 3 16 1315398 20200731175343
+194.228.79.234 4 21 3279282 20200725121324
+173.252.127.3 0 1 920783 
+212.4.155.202 4 17 1319239 20200723173653
+85.70.156.19 3 37 1541039 20200707122919
+31.13.127.3 0 1 57087 
+78.45.78.58 3 15 1825473 20200714140835
+89.176.40.234 0 2 126431 
+86.49.249.187 0 1 1098365 
+89.176.86.74 4 43 2667563 20200729221745
+45.145.185.192 4 4 17192 20200724024024
+193.179.210.52 3 16 1315398 20200730121457
+31.30.112.100 0 1 58064 
+31.13.127.20 0 1 58064 
+34.216.142.146 1 1 4298 20200702001027
+193.70.102.145 1 1 16187 20200713132040
+34.219.76.145 1 1 4298 20200701050121
+37.188.224.14 3 16 1315398 20200705120045
+212.71.184.2 4 20 3789357 20200713164053
+18.191.154.54 3 6 69525 20200717000405
+210.13.74.218 0 1 67538 
+94.158.36.183 1 1 16187 20200718121353
+188.122.194.43 0 1 68367 
+46.135.90.56 3 36 1540624 20200725003247
+51.15.242.22 1 1 4298 20200730222821
+35.162.45.127 2 2 8596 20200726023344
+193.150.24.96 0 1 58064 
+212.96.178.166 0 2 1421764 
+77.48.29.58 4 21 4798304 20200724134115
+87.244.229.253 3 16 1315398 20200701103413
+69.171.251.28 0 1 57087 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200701 13 76 4258519 7
+20200702 24 176 9677869 10
+20200703 16 89 7021582 6
+20200704 12 54 5007888 6
+20200705 12 87 9268462 6
+20200706 8 24 1585103 4
+20200707 13 99 5604846 6
+20200708 19 100 6124054 7
+20200709 17 105 5718354 9
+20200710 24 50 3650464 13
+20200711 24 169 12141142 11
+20200712 4 6 121114 4
+20200713 16 74 10935593 7
+20200714 37 115 8552668 17
+20200715 29 88 4324821 12
+20200716 16 43 2741227 12
+20200717 14 19 1058009 5
+20200718 6 21 3371218 4
+20200719 20 85 6621344 9
+20200720 37 150 9507121 11
+20200721 33 174 16043557 14
+20200722 22 135 10944589 12
+20200723 12 38 2671309 7
+20200724 24 58 6478679 11
+20200725 21 100 7739329 9
+20200726 26 78 5837562 16
+20200727 16 78 6579307 9
+20200728 29 139 9545983 13
+20200729 19 120 7040759 8
+20200730 35 103 5628699 18
+20200731 27 92 6652344 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 5
+2mn-5mn 5
+30mn-1h 5
+1h+ 1
+0s-30s 261
+15mn-30mn 6
+30s-2mn 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 280 2447765 211 190
+/fonts/Oswald-Regular.ttf 100 5094400 1 19
+/fonts/fontawesome-webfont.woff2 98 6317472 2 52
+/siteprokocky.html 80 314756 63 10
+/cisteniokapu.html 21 80294 13 3
+/reference.html 14 69001 1 4
+/vyskoveprace.html 13 49165 0 9
+/natery.html 11 43843 3 4
+/durdakova38.html 4 22014 0 1
+/fonts/fontawesome-webfont.woff 2 162568 0 1
+/fonts/fontawesome-webfont.eot 1 68875 0 0
+/fonts/fontawesome-webfont.ttf 1 138204 0 1
+END_SIDER
